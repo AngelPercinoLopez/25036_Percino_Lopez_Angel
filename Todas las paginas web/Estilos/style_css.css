@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+@media screen{
+	
+	body{
+		height: auto;
+		background-color: #ECE0EC;
+		width: auto;
+	}
+	
+#cabecera {
+    width: 1280px;
+    height: 100px;
+    color: #93CAED;
+    text-decoration: none;
+    text-align: center;
+    font-size: 60px;
+    background-color: #5B97B4;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-indent: 0px;
+    margin-bottom: 10px;
+    line-height: 100px;
+}
+
+	
+	
+	section {
+    background-color: #69758E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    height: auto;
+    display: block;
+	}
+
+	h2{
+    color: #333B8F;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size: 40px;
+	}
+	
+	p{
+    color: #B9B5D8;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	
+	}
+	#navegacion {
+    width: auto;
+    height: auto;
+    background-color: #D87116;
+    color: #D87116;
+	text-decoration: none;
+    font-size: 45px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: auto;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Lucida Grande";
+    font-style: italic;
+    font-variant: normal;
+	color: #D87116;
+	font-size: 15px;
+}
+	
+.imagen_f {
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    float: right;
+}
+
+.imagenes_1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.size_imagenes_filtro {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.blur {
+    filter: blur(2px);
+}
+.brillo {
+    filter: brightness(70%);
+}
+.contraste {
+    filter: contrast(40%);
+}
+.grises {
+    filter: grayscale(100%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.opacidad {
+    filter: opacity(0.5);
+}
+.saturacion {
+    filter: saturete(50%);
+}
+.sepia {
+    filter: sepia(60%);
+}
+.rotacion {
+    filter: hue-rotate(40deg);
+}
+.imagenes_2 {
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.borderdecorado_1 {
+    border-radius: 30px;
+    border: thick double #BD9DE5;
+}
+.borderdecorado_2 {
+    border-radius: 50%;
+    border-style: dotted;
+}
+.borderdecorado_3 {
+    border-radius: 200px 200px 74px 74px;
+    border: thick solid #91D5DD;
+}
+.opacidad_2 {
+    opacity: 0.53;
+}
+.imagenes_3{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 150px;
+}
+.reflexion_x:hover {
+    width: 20%;
+    height: auto;
+    transform: scale(0,5);
+}
+.rota:hover {
+	width: 20%;
+	height: auto;
+	transform: rotate(20deg);
+}
+.skew:hover {
+	width: 20%;
+	height: auto;
+	transform: skewX(30deg);
+}
+	footer{
+    background-color: #D5E8EE;
+	}
+#piedepagina {
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #4C9DB6;
+	}
+	
+.imagenes_4 {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container {
+	position: relative;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 40px;
+    color: #E7E7E7;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+	
+.imagenes_5 {
+    width: 200px;
+    height: auto;
+}
+.divpolaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+	
+.divcontainer {
+    text-align: center;
+    padding-bottom: 47px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.texto {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: -87px;
+}
+.imagenes_6 {
+    height: auto;
+    width: 25%;
+}
+.imacontainer {
+	position: relative;
+}
+	.imageoverlay{
+		transition: .5s ease;
+		background-color: darkmagenta;
+	}
+	
+	video{
+		width: 50%;
+		height: auto;
+	}
+.ulilli {
+}

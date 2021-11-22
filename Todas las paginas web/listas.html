@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Listas</title>
+<style type="text/css">
+	section{
+			background-color: #B86933;	
+	      }
+	header{
+			
+			height:50px;
+			background-color: #89A380;
+			padding: 30px;
+			text-align: center;
+			color: #B86933;
+		}
+	footer{
+			background-color: #DBD201;
+			text-align: center;
+			height:80px;
+			padding: auto;
+			color: #B86933;
+			font-size:50px;
+		}
+	li, h2, dt, dd, h3 {
+		color: #F8E265;
+	}
+	#navegacion {
+    width: auto;
+    height: auto;
+    background-color: #D87116;
+    color: #D87116;
+	text-decoration: none;
+    font-size: 45px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: auto;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Lucida Grande";
+    font-style: italic;
+    font-variant: normal;
+	color: #D87116;
+	font-size: 15px;
+}
+	</style>
+</head>
+	
+<body>
+	<header>
+	  <h1>Listas en HTML</h1>
+	</header>
+	<nav id="navegacion">
+		<ul>
+			<li><a href="mi_rimera_pagina.html">Mi primera pagina web</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>
+			<li><a href="enlaces.html">Enlaces y Hipervinculos</a></li>
+			<li><a href="Audios.html">Audios</a></li>
+			<li><a href="animacion.html">Animaciones</a></li>
+			<li><a href="flexbox.html">Flex box</a></li>
+		</ul>
+	</nav>
+	<main>
+	 <section>
+	 <h2>Lista ordenada: Revision de errores cometidos en redaccion</h2>
+		 <ol>
+		  <li>Organizacion</li>
+		  <li>Exactitud de transcripciones</li>
+		  <li>Cuestiones gramaticales</li>
+		  <li>Formatos</li>
+		 </ol>
+	 </section>
+	 <section>
+	 <h2>Lista desordenada: Lista del super</h2>
+		 <ul>
+		 <li>Pasta de dientes</li>
+		 <li>Shamoo</li>
+		 <li>Jabon de tocador</li>
+		 <li>Sopas</li>
+		 <li>Lata de frutas</li>
+		 <li>Pollo</li>
+		 </ul>
+	 </section>
+	 <section>
+	 	<h2>Lista mixta: Geografica</h2>
+	 	<ul>
+	 		<li>Argentina
+			<ul>
+				<li>Buenos Aires</li>
+				<li>Rio de la plata</li>
+				<li>Belgrano</li>
+				</ul>
+			</li>
+	 		<li>Bolivia</li>
+	 		<li>Mexico
+					<ul>
+					<li>Aguascalientes</li>
+					<li>Baja California Sur</li>
+					<li>Colima</li>
+					<li>Durango</li>
+					<li>Puebla</li>				
+					</ul>
+			</li>
+	 		<li>España</li>
+	 		<li>Italia
+			<ul>
+				<li>Venecia</li>
+				<li>Florencia</li>
+				<li>Roma</li>
+				</ul>
+			</li>
+	 	</ul>
+	 </section>
+		<section>
+		<h2>Lista de descripsion</h2>
+		<dl>
+			<dt>Usabilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore tempore molestiae dolor cumque dicta nulla esse ullam perspiciatis alias molestias.</dd>
+			</dl>
+			<dt>Accesibilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sequi assumenda vitae provident, repellendus nisi fuga sunt dolorum rerum minus.</dd>
+			<dt>Servidor web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae esse fuga commodi corrupti incidunt quas earum, fugit optio. Corporis, natus, maiores. Explicabo perspiciatis hic excepturi omnis assumenda, ipsum ipsam dignissimos.</dd>
+			<dt>Hosting</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora accusantium ipsa cumque aliquam id saepe? Voluptatum, numquam. Facilis, placeat, consectetur.</dd>
+			<dt>Dominio</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam earum dolore ab deserunt adipisci quod at nisi ex. Quasi ducimus atque ab dolores incidunt facere!</dd>
+		</section>
+		<section>
+		<h2>Uso de atributo <b>type</b> definir viñeta de lista</h2>
+			<h3>Alfabetico: A,a</h3>
+			<ol type="a">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Romanos: I,i</h3>
+			<ol type="I">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Figura: circle,square,disc</h3>
+			<ul type="square">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Uso de propiedades Css para modificacion de viñetas</h2>
+		<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñetas</h3>
+		<ul style="list-style-type:georgian">
+			<li>Cafe</li>
+			<li>Leche</li>
+			<li>Pan</li>
+			<li>Atun</li>
+			<li>Frijoles</li>
+			</ul>
+			<h3>Uso de la pripiedad list-style-image de css para cambiar la viñeta por imagen</h3>
+			<ul style="list-style-image: url('../img/dom.png')">
+			<li>Delfin</li>
+			<li>Morsa</li>
+			<li>Ballena</li>
+			</ul>
+			<h3>Eliminar viñetas de lista</h3>
+			<ul style="list-style-type: none">
+			<li>Gato</li>
+			<li>Leon</li>
+			<li>Tigre</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+	<h5>Elaborado por Angel Percino Lopez</h5>
+	</footer>
+</body>
+<body>
+</body>
+</html>

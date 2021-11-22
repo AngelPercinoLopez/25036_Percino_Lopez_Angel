@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Monoton&family=Permanent+Marker&family=Playfair+Display+SC:ital,wght@1,900&family=Press+Start+2P&family=Special+Elite&display=swap');
+.frase1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-style: italic;
+    color: #0B134F;
+    text-decoration: none;
+    background-color: #B9D16E;
+	text-align: center;
+	margin: 30px;
+}
+.frase2 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #C913B7;
+    text-decoration: underline;
+    background-color: #18CF6B;
+	text-align: center;
+	margin: 30px;
+}
+.frase3 {
+	font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    font-style: inherit;
+    color: #BD1215;
+    text-decoration: overline;
+    background-color: #D7D016;
+    border: medium solid #0FBB3E;
+	text-align: center;
+	margin: 30px;
+}
+.Frase4 {
+	font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    font-style: italic;
+    color: #B30D8E;
+    text-decoration: line-through;
+    background-color: #2BC6D3;
+    border-style: double;
+    border-color: #C05A0C;
+    position: absolute;
+	text-align: center;
+	margin: 30px;
+}
+
+.frase5 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    font-style: italic;
+    color: #CCE706;
+    text-decoration: underline;
+    background-color: #299E0D;
+    border-style: dotted;
+    border-color: #17D4C5;
+	text-align: center;
+	margin: 30px;
+}
+.Titulo {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 24px;
+    color: #1525D0;
+    text-decoration: underline;
+    background-color: #249F0B;
+    border-style: solid;
+    border-color: #D320D2;
+	text-align: center;
+	margin: 30px;
+}
+.elaborado {
+    font-family: 'Monoton', cursive;
+    font-size: 24px;
+    color: #AD2626;
+    text-decoration: underline;
+    background-color: #8FEAEC;
+    border-style: solid;
+    border-color: #D320D2;
+	text-align: center;
+	margin: 30px;
+}
